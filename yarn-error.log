@@ -1,0 +1,67 @@
+Arguments: 
+  /Users/thejoker/.nvm/versions/node/v10.4.1/bin/node /usr/local/bin/yarn publish
+
+PATH: 
+  /usr/local/opt/openssl/bin:/Users/thejoker/.nvm/versions/node/v10.4.1/bin:/usr/local/opt/postgresql@9.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/thejoker/.rvm/bin:/Users/thejoker/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.4.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "@dwstyle/icons",
+    "version": "0.1.4",
+    "description": "Official Icons Library For dWeb dApps, dSites and other dWeb-related projects.",
+    "contributors": [
+      "Jared Rice Sr. <jared@dwebs.io>",
+      "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "browserify": {
+      "transform": [
+        "brfs"
+      ]
+    },
+    "scripts": {
+      "build-dweb-icons": "svgo -f --disable=convertShapeToPath icons && spritesh --input icons --output sprite.svg --viewbox '0 0 240 240' --prefix dwebicon-",
+      "example": "budo example.js --open --live -- -t brfs"
+    },
+    "dependencies": {
+      "bel": "^4.5.1",
+      "brfs": "^1.4.3"
+    },
+    "devDependencies": {
+      "budo": "^9.2.1",
+      "spritesh": "^1.2.0",
+      "svgo": "^0.7.1"
+    },
+    "publishConfig": {
+      "access": "public"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.npmjs.org/@dwstyle%2ficons: You cannot publish over the previously published versions: 0.1.4.
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:65019:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:132430:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:133413:10)
+      at Request.emit (events.js:182:13)
+      at Gunzip.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:133333:12)
+      at Object.onceWrapper (events.js:273:13)
+      at Gunzip.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1081:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
