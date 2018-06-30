@@ -12,7 +12,7 @@ document.body.appendChild(el)
 
 Make sure to include this sprite in your page as the first element after the `<body>` opening tag.
 
-Icons can later be referenced like so:
+Icons can be referenced in our `dWeb Design Kit` [@dwstyle/dweb-design](https://github.com/distributedweb/design) like so:
 
 ```html
 <svg><use xlink:href="#dwebicon-happy-face"></use></svg>
