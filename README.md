@@ -23,7 +23,7 @@ Icons can later be referenced like so:
 | dWeb Icon  | Class |
 | ------------- | ------------- |
 | <img width="30px" src="http://cdn.dwebs.io/dweb-icons/clipboard.svg"> | `dwebicon-clipboard` |
-| <img width="30px" src="http://cdn.dwebs.io/dweb-icons/dpack.svg"> | `dwebicon-new-dpack` |
+| <img width="40px" src="http://cdn.dwebs.io/dweb-icons/dpack.svg"> | `dwebicon-new-dpack` |
 | <img width="40px" src="http://cdn.dwebs.io/dweb-icons/download.svg"> | `dwebicon-download` |
 | <img width="30px" src="http://cdn.dwebs.io/dweb-icons/edit.svg"> | `dwebicon-edit` |
 | <img width="30px" src="http://cdn.dwebs.io/dweb-icons/file.svg"> | `dwebicon-file` |
