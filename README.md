@@ -33,7 +33,7 @@ Icons can be referenced in our `dWeb Design Kit` [@dwstyle/dweb-design](https://
 | <img width="30px" src="http://cdn.dwebs.io/dweb-icons/hexagon-outlines.svg"> | `dwebicon-hexagon-outlines` |
 | <img width="30px" src="http://cdn.dwebs.io/dweb-icons/dweb-pause.svg"> | `dwebicon-dweb-pause` |
 | <img width="30px" src="http://cdn.dwebs.io/dweb-icons/dweb-resume.svg"> | `dwebicon-dweb-resume` |
-| <img width="30px" src="http://cdn.dwebs.io/dweb-icons/dweb-upload.svg"> | `dwebicon-dweb-uload` |
+| <img width="30px" src="http://cdn.dwebs.io/dweb-icons/dweb-upload.svg"> | `dwebicon-dweb-upload` |
 | <img width="30px" src="http://cdn.dwebs.io/dweb-icons/dweb-exit.svg"> | `dwebicon-dweb-exit` |
 | <img width="30px" src="http://cdn.dwebs.io/dweb-icons/dweb-import.svg"> | `dwebicon-dweb-import` |
 | <img width="30px" src="http://cdn.dwebs.io/dweb-icons/link.svg"> | `dwebicon-link` |
