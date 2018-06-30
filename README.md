@@ -46,7 +46,7 @@ Icons can later be referenced like so:
 - <img width="25px" src="http://cdn.dwebs.io/dweb-icons/plus.svg"> `dwebicon-plus`
 - <img width="25px" src="http://cdn.dwebs.io/dweb-icons/question.svg"> `dwebicon-question`
 - <img width="25px" src="http://cdn.dwebs.io/dweb-icons/sad-face.svg"> `dwebicon-sad-face`
-- <img width="25px" src="http://cdn.dwebs.io/dweb-icons/star.svg"> `dwebicon-star`
+- <img width="25px" src="http://cdn.dwebs.io/dweb-icons/favorite.svg"> `dwebicon-favorite`
 - <img width="25px" src="http://cdn.dwebs.io/dweb-icons/edit.svg"> `dwebicon-edit`
 - <img width="25px" src="http://cdn.dwebs.io/dweb-icons/info.svg"> `dwebicon-info`
 - <img width="25px" src="http://cdn.dwebs.io/dweb-icons/gear.svg"> `dwebicon-gear`
