@@ -1,0 +1,32 @@
+{
+  "name": "@dwstyle/icons",
+  "version": "0.1.1",
+  "description": "Official Icons Library For dWeb dApps, dSites and other dWeb-related projects.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "scripts": {
+    "build-dweb-icons": "svgo -f --disable=convertShapeToPath icons && spritesh --input icons --output sprite.svg --viewbox '0 0 240 240' --prefix dwebicon-",
+    "example": "budo example.js --open --live -- -t brfs"
+  },
+  "dependencies": {
+    "bel": "^4.5.1",
+    "brfs": "^1.4.3"
+  },
+  "devDependencies": {
+    "budo": "^9.2.1",
+    "spritesh": "^1.2.0",
+    "svgo": "^0.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
